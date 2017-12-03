@@ -1,0 +1,30 @@
+{
+  "name": "note",
+  "plural": "notes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "noteTitle": {
+      "type": "string"
+    },
+    "noteTag": {
+      "type": "string"
+    },
+    "noteContent": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "date"
+    },
+    "updatedAt": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
